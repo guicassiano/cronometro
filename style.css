@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+p{
+    font-size: 6em;
+    font-family: monospace;
+    margin-bottom: 30px;
+}
+#btnIniciar,#btnParar,#btnRestaurar{
+    font-size: 1.6em;
+    padding: 12px 24px;
+    width: 220px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#btnIniciar{
+    background-color: #0f0;
+}
+#btnIniciar:hover{
+    background-color: rgb(18, 82, 18);
+    color: #fff;
+}
+#btnParar{
+    background-color: #f00;
+}
+#btnParar:hover{
+    background-color: rgb(109, 4, 4);
+    color: #fff;
+}
+#btnRestaurar:hover{
+    background-color: #000;
+    color: #fff;
+}
